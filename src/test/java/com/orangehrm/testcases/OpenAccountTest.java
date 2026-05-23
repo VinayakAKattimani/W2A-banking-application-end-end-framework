@@ -7,8 +7,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.Hashtable;
-
 public class OpenAccountTest extends TestBase {
 
     @Test(dataProviderClass = TestUtil.class, dataProvider = "dp")
