@@ -1,7 +1,6 @@
-00:11:18,861 DEBUG devpinoyLogger:69 - Config file Loaded !!!
-00:11:18,862 DEBUG devpinoyLogger:81 - OR file Loaded !!!
-00:11:19,979 DEBUG devpinoyLogger:89 - Chrome Launched!!!
-00:11:22,701 DEBUG devpinoyLogger:98 - Navigated to Orange HRM web !!!
-00:11:22,797 DEBUG devpinoyLogger:16 - Inside Login Test!!!
-00:11:23,140 DEBUG devpinoyLogger:24 - Login Successfully Executed !!!
-00:11:27,760 DEBUG devpinoyLogger:182 - Test Execution Completed !!!
+00:13:19,554 DEBUG devpinoyLogger:69 - Config file Loaded !!!
+00:13:19,555 DEBUG devpinoyLogger:81 - OR file Loaded !!!
+00:13:20,730 DEBUG devpinoyLogger:89 - Chrome Launched!!!
+00:13:22,150 DEBUG devpinoyLogger:98 - Navigated to Orange HRM web !!!
+00:13:22,243 DEBUG devpinoyLogger:16 - Inside Login Test!!!
+00:13:26,977 DEBUG devpinoyLogger:182 - Test Execution Completed !!!
