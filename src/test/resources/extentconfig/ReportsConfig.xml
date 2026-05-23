@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+
+        <!-- document encoding -->
+        <!-- default to UTF-8 -->
+        <endoding>UTF-8</endoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- default https -->
+        <protocol>https</protocol>
+
+        <!-- title of the document -->
+        <documentTitle>Orange HRM Automation reports</documentTitle>
+
+        <!-- report name displayed at top-nav -->
+        <reportName>Automation Report for</reportName>
+        <!-- report headline displayed at top-nav, after reportHeadline-->
+        <reportHeadline>Data Driven Framework</reportHeadline>
+
+        <!-- global date format override -->
+        <!-- defaults to yyyy-MM-dd -->
+        <dateFormat>yyyy-MM-dd</dateFormat>
+
+        <!-- global time format override -->
+        <!-- defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                 $(document).ready(function() {
+                 });
+            ]]>
+        </scripts>
+        <!-- custom styles-->
+        <styles>
+           <![CDATA[
+I
+           ]]>
+        </styles>
+    </configuration>
+</extentreports>
