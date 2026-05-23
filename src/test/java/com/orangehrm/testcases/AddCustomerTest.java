@@ -3,15 +3,10 @@ package com.orangehrm.testcases;
 import com.orangehrm.base.TestBase;
 import com.orangehrm.utilities.TestUtil;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.SkipException;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-import java.util.Hashtable;
 
 public class AddCustomerTest extends TestBase {
 

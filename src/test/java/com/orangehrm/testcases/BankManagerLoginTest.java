@@ -14,7 +14,6 @@ public class BankManagerLoginTest extends TestBase {
 
         log.debug("Inside Login Test!!!");
         appLogs.debug("Inside Login Test!!!");
-//        driver.findElement(By.cssSelector(OR.getProperty("mgrLoginBtn"))).click();
         click("mgrLoginBtn_CSS");
 
         Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCustBtn"))), "Login not successful");
