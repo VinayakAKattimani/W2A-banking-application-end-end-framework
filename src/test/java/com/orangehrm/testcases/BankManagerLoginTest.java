@@ -17,9 +17,9 @@ public class BankManagerLoginTest extends TestBase {
         click("mgrLoginBtn_CSS");
 
         Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCustBtn"))), "Login not successful");
-//        verifyEquals("abc", "xyz");
-//
-//        Assert.fail("Element is not found");
+        verifyEquals("abc", "xyz");
+
+        Assert.fail("Element is not found");
         log.debug("Login Successfully Executed !!!");
         appLogs.debug("Login Successfully Executed !!!");
 
