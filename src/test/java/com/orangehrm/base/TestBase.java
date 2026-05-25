@@ -84,10 +84,14 @@ public class TestBase {
                 throw new RuntimeException(e);
             }
 
-            if (config.getProperty("browser").equals("chrome")){
-                ChromeOptions options = new ChromeOptions();
 
-                options.addArguments("--start-maximized");
+
+
+//            if(System.getenv("browser") != null && System.getenv("browser").isEmpty())
+            if (config.getProperty("browser").equals("chrome")){
+//                ChromeOptions options = new ChromeOptions();
+
+//                options.addArguments("--start-maximized");
                 driver = new ChromeDriver();
                 log.debug("Chrome Launched!!!");
                 appLogs.debug("Chrome Launched!!!");
